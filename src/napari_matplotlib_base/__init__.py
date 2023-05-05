@@ -4,6 +4,4 @@ except ImportError:
     __version__ = "unknown"
 
 
-from .histogram import *  # NoQA
-from .scatter import *  # NoQA
-from .slice import *  # NoQA
+from .base import NapariMPLWidget
